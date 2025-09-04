@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="empleado_pedido" directorySegmentName="seg_0" id="CC5380D0-2838-3B90-C83B-E4D79B76982E">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 02:06:41 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<sourcePk>876CE8CD-2165-9DD2-C725-C5F25C4C3720</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B768B2C1-6098-2C17-EEDB-09BA8960F34F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7D1EA3D0-1B31-BE02-449A-E6D743A3C9EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

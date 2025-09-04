@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D1EA3D0-1B31-BE02-449A-E6D743A3C9EF" name="pedido">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:03:22 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pedido" id="9C96AD60-42F0-439E-CFF6-A8EC7CC58E70">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:17:29 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="50E0F6E6-36CA-7C09-63DE-F051F1889315">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:17:44 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_pedido" id="8051ACC4-0DA1-FC4D-D822-D0DCBA6086EB">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:17:57 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="66961600-118B-937C-3B0C-0C1CB518B5A4">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:18:22 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="F09D0024-930F-8F4E-552E-8D520F50BAD1">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:48:21 UTC</createdTime>
+<generatorID>7F94E865-FD50-8F58-0BB2-70DB1D76B6D5</generatorID>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<referedAttribute>8942AFA4-6408-3097-C523-D2A47D21BC3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="9E04BA28-88A6-2B86-E5BB-0590C7502D95">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 02:06:41 UTC</createdTime>
+<generatorID>CC5380D0-2838-3B90-C83B-E4D79B76982E</generatorID>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<referedAttribute>DB158DD6-27E9-0519-E134-B22EBA870630</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B0EEDA7-111C-D18A-70A9-5103E3AA095E" name="pedido PK">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:17:42 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C96AD60-42F0-439E-CFF6-A8EC7CC58E70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

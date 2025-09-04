@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B16D05B0-9540-522A-E1AA-73E76266F6DD" mainViewID="5F2029E5-9569-F075-9EEC-3720CCFF8000">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:02:08 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="region_comuna" directorySegmentName="seg_0" id="4F5BCEFB-B631-9AB9-B347-EFBCA863B262">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 02:00:54 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<sourcePk>B4F61E7D-2B9A-C669-F8AD-F2066A67EBB0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>968FDC84-F72D-E765-816B-C7BA253E995C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED1F035B-44D1-CC2C-FE88-D76322FF4FBE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08B18696-D5EF-E1F4-927C-9B5C598C4A2A" name="direccion">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:42:28 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_direccion" id="7B7AE176-D551-C39F-CB5F-71A6651BDAD7">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:42:32 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_direccion" id="63DDF672-2E9F-E598-39E8-A168C42669F7">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:43:19 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="6F61D7F4-3DD0-E8F9-0737-C2385AA64C2F">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 02:01:11 UTC</createdTime>
+<generatorID>FB2148A2-A4E7-F02B-D81C-5E66BC0C1CD0</generatorID>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<referedAttribute>873F430C-EE21-B2E1-7726-BBEFB5A4DD03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="C10C1125-20FD-4CF8-9AFD-14736DF3724F">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 02:04:13 UTC</createdTime>
+<generatorID>D97928B0-C1D4-6572-E77E-0FF473B91511</generatorID>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<referedAttribute>8942AFA4-6408-3097-C523-D2A47D21BC3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="365537C6-8F12-DF1D-5FB3-53176766732F" name="direccion PK">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:45:25 UTC</createdTime>
+<ownerDesignName>bd pasteleria .nieve</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B7AE176-D551-C39F-CB5F-71A6651BDAD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
