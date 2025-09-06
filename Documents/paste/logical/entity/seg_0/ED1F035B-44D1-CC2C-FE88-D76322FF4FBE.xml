@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED1F035B-44D1-CC2C-FE88-D76322FF4FBE" name="comuna">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:40:28 UTC</createdTime>
+<ownerDesignName>paste</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comuna" id="873F430C-EE21-B2E1-7726-BBEFB5A4DD03">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:40:47 UTC</createdTime>
+<ownerDesignName>paste</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_comuna" id="165FCA6E-A079-2D26-4FC8-292ADED92285">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:41:06 UTC</createdTime>
+<ownerDesignName>paste</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="3977002C-2A3A-B7FF-DA01-B6C9742EC1C6">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 02:00:54 UTC</createdTime>
+<generatorID>4F5BCEFB-B631-9AB9-B347-EFBCA863B262</generatorID>
+<ownerDesignName>paste</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<referedAttribute>09DD620C-7EA6-1540-46E5-23A52784BD59</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6804C41B-42B8-2413-AC2F-39FC53151A34" name="direccion PK">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 01:41:01 UTC</createdTime>
+<ownerDesignName>paste</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>873F430C-EE21-B2E1-7726-BBEFB5A4DD03</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

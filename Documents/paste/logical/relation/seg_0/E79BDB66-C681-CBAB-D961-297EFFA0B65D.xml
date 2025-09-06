@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="inventario_productos" directorySegmentName="seg_0" id="E79BDB66-C681-CBAB-D961-297EFFA0B65D">
+<createdBy>felip</createdBy>
+<createdTime>2025-09-04 02:07:43 UTC</createdTime>
+<ownerDesignName>paste</ownerDesignName>
+<engineerTo>
+<item key="7F0257F9-4E4D-5114-501C-26F3EBD334FF" value="true"/>
+</engineerTo>
+<sourcePk>3B37CE45-3799-A820-C329-9D89FEBED2F3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6EEC99C0-1E5D-2C04-8EE0-2A2FE6F23BE9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1453E888-640F-EE2B-918E-76129A68EF55</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
