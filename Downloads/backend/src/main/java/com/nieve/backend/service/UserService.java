@@ -10,10 +10,10 @@ import org.springframework.stereotype.Service;
 import java.util.Date;
 
 @Service
-public class userService {
+public class UserService {
     private final userRepository repo;
 
-    public userService(userRepository repo) {
+    public UserService(userRepository repo) {
         this.repo = repo;
     }
 

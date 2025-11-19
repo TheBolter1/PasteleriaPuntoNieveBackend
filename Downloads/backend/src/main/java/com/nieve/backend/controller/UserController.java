@@ -2,17 +2,17 @@ package com.nieve.backend.controller;
 
 import com.nieve.backend.model.user;
 import com.nieve.backend.model.userDTO;
-import com.nieve.backend.service.userService;
+import com.nieve.backend.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/usuarios")
-public class userController {
+public class UserController {
 
-    private final userService service;
+    private final UserService service;
 
-    public userController(userService service) {
+    public UserController(UserService service) {
         this.service = service;
     }
 
